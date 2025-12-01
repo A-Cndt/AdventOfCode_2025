@@ -8,7 +8,10 @@ Solve every puzzle of **Advent of Code 2025** using **Python 3**, with clean, mo
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
 [![GitHub stars](https://img.shields.io/github/stars/A-Cndt/AdventOfCode_2025?style=social)](https://github.com/A-Cdnt/AdventOfCode_2025/stargazers)  
 [![GitHub forks](https://img.shields.io/github/forks/A-Cndt/AdventOfCode_2025?style=social)](https://github.com/A-Cndt/AdventOfCode_2025/network/members)
+
 [![Build Status](https://img.shields.io/github/workflow/status/A-Cndt/AdventOfCode_2025/Python%20CI?logo=github&logoColor=white)](https://github.com/A-Cndt/AdventOfCode_2025/actions)
+
+[![Labeler](https://github.com/A-Cndt/AdventOfCode_2025/actions/workflows/label.yml/badge.svg)](https://github.com/A-Cndt/AdventOfCode_2025/actions/workflows/label.yml)
 
 ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen)
 ![Day2](https://img.shields.io/badge/Day%202-Not%20Started-lightgrey)
