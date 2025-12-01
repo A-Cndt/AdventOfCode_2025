@@ -32,8 +32,9 @@ def get_input(day: int = 1, example: bool = False) -> list:
     :rtype: list
     """
     file = 'example.txt' if example else 'input.txt'
-    with open(f"./Day{day}/{file}", 'r') as f:
-        return f.readlines()     
+    with open(f"./Day{day}/{file}", 'r', encoding='utf-8') as f:
+        return f.readlines()
+
 # ===========================================================================
 
 # %% ========================================================================
@@ -70,8 +71,8 @@ def solve(data) -> int:
                     + int(next_pos % MOD == 0 and movements < 0)
 
         # Nouvelle position modulo
-        current_pos = next_pos % MOD 
-            
+        current_pos = next_pos % MOD
+
     return password
 
 # ===========================================================================

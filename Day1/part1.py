@@ -32,9 +32,9 @@ def get_input(day: int = 1, example: bool = False) -> list:
     :rtype: list
     """
     file = 'example.txt' if example else 'input.txt'
-    with open(f"./Day{day}/{file}", 'r') as f:
-        return f.readlines()     
-    
+    with open(f"./Day{day}/{file}", 'r', encoding='utf-8') as f:
+        return f.readlines()
+
 # ===========================================================================
 
 # %% ========================================================================
@@ -67,17 +67,17 @@ def solve(data) -> int:
         # Incrément du password si passage exact sur 0
         if current_pos == 0:
             password += 1
-            
+
     return password
 
 # ===========================================================================
 
 # %%
 if __name__ == "__main__":
-    result = solve(get_input(1, False))
+    RESULT = solve(get_input(1, False))
     
     print("\n" + "═" * 60)
     print("   🔐 Advent of Code 2025 — Day 1 | Part 1".center(60))
     print("═" * 60)
-    print(f"Password trouvé : \033[96m{result}\033[0m")
+    print(f"Password trouvé : \033[96m{RESULT}\033[0m")
     print("═" * 60 + "\n")
