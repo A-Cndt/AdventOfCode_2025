@@ -8,6 +8,8 @@ on:
 
 jobs:
   test-and-coverage:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
