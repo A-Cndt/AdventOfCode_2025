@@ -27,8 +27,3 @@ jobs:
       run: |
         python -m pytest -v --maxfail=1 --disable-warnings --cov=Day1 --cov=Day2 --cov-report=term-missing --cov-report=html
 
-    # 5️⃣ Upload HTML coverage report
-    - name: Show coverage summary
-        run: |
-          echo "HTML coverage report generated at htmlcov/index.html"
-
