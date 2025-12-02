@@ -33,10 +33,4 @@ jobs:
       with:
         name: coverage-report
         path: htmlcov/
-          
-    # 6️⃣ Optional: Generate coverage badge
-    - name: Generate coverage badge
-      uses: tj-actions/coverage-badge@v2
-      with:
-        path: htmlcov/coverage.xml
-        # output: badge.svg (by default)
+
