@@ -14,7 +14,7 @@ Solve every puzzle of **Advent of Code 2025** using **Python 3**, with clean, mo
 [![Labeler](https://github.com/A-Cndt/AdventOfCode_2025/actions/workflows/label.yml/badge.svg)](https://github.com/A-Cndt/AdventOfCode_2025/actions/workflows/label.yml)
 
 ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen)
-![Day2](https://img.shields.io/badge/Day%202-Not%20Started-lightgrey)
+![Day2](https://img.shields.io/badge/Day%202-Completed-brightgreen)
 ![Day3](https://img.shields.io/badge/Day%203-Not%20Started-lightgrey) 
 ![Day4](https://img.shields.io/badge/Day%204-Not%20Started-lightgrey) 
 ![Day5](https://img.shields.io/badge/Day%205-Not%20Started-lightgrey) 
@@ -98,7 +98,7 @@ Track progress with GitHub stars, forks, and contributions.
 | Day | Part 1 | Part 2 | Status |
 | --- | ------ | ------ | ------ |
 | 1   | ✅      | ✅      | ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen) |
-| 2   | ❌      | ❌      | ![Day2](https://img.shields.io/badge/Day%202-In%20Progress-yellow) |
+| 2   | ✅      | ✅      | ![Day2](https://img.shields.io/badge/Day%202-Completed-brightgreen) |
 | 3   | ❌      | ❌      | ![Day3](https://img.shields.io/badge/Day%203-Not%20Started-lightgrey) |
 | 4   | ❌      | ❌      | ![Day4](https://img.shields.io/badge/Day%204-Not%20Started-lightgrey) |
 | 5   | ❌      | ❌      | ![Day5](https://img.shields.io/badge/Day%205-Not%20Started-lightgrey) |
