@@ -23,11 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest pytest-cov
 
-    - name: Run tests
-      run: pytest -v --maxfail=1 --disable-warnings
-
-    - name: Upload test reports
-      uses: actions/upload-artifact@v4   # <-- Changement ici !
-      with:
-        name: pytest-report
-        path: ./tests/results.xml
+    - name: Run tests with coverage
+      run: |
+        python -m pytest -v --maxfail=1 --disable-warnings --cov=Day1 --cov=Day2 --cov-report=term-missing --cov-report=html
