@@ -1,4 +1,4 @@
-name: Python Tests
+name: Python CI with Tests & Coverage
 
 on:
   push:
@@ -11,19 +11,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      # 1️⃣ Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # Pour pouvoir push ensuite
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.12
+      # 2️⃣ Setup Python
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest pytest-cov
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-cov
 
-    - name: Run tests with coverage
-      run: |
-        python -m pytest -v --maxfail=1 --disable-warnings --cov=Day1 --cov=Day2 --cov-report=term-missing --cov-report=html
+      # 4️⃣ Run tests with coverage and generate HTML report
+      - name: Run tests with coverage
+        run: |
+          python -m pytest -v --maxfail=1 --disable-warnings \
+            --cov=Day1 --cov=Day2 --cov-report=term-missing --cov-report=html
 
+      # 5️⃣ Commit and push htmlcov
+      - name: Commit and push htmlcov
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add htmlcov
+          git commit -m "chore: update HTML coverage report [skip ci]" || echo "No changes to commit"
+          git push
