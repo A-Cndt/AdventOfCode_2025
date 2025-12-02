@@ -70,8 +70,6 @@ def is_repeated_pattern(x: int, n: int = 2) -> bool:
             continue
         
         times = L // k
-        if times < n :
-            continue
         
         pattern = str(x)[:k]
         if pattern * times == str(x):
@@ -117,3 +115,4 @@ if __name__ == "__main__":
     print("═" * 60)
     print(f"ID Invalides trouvés : \033[96m{RESULT}\033[0m")
     print("═" * 60 + "\n")
+
