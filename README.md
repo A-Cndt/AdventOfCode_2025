@@ -85,7 +85,7 @@ python Day1/part2.py
 
 Console output shows the password or the final result in a clean, readable format.
 
-##🔹 Badges & Fun
+## 🔹 Badges & Fun
 
 Track progress with GitHub stars, forks, and contributions.
 
