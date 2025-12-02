@@ -28,9 +28,7 @@ jobs:
         python -m pytest -v --maxfail=1 --disable-warnings --cov=Day1 --cov=Day2 --cov-report=term-missing --cov-report=html
 
     # 5️⃣ Upload HTML coverage report
-    - name: Upload coverage report
-      uses: actions/upload-artifact@v4
-      with:
-        name: coverage-report
-        path: htmlcov/
+    - name: Show coverage summary
+        run: |
+          echo "HTML coverage report generated at htmlcov/index.html"
 
