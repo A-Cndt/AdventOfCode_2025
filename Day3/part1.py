@@ -89,5 +89,6 @@ if __name__ == "__main__":
     print("\n" + "═" * 60)
     print("   🔐 Advent of Code 2025 — Day 3 | Part 1".center(60))
     print("═" * 60)
-    print(f"ID Invalides trouvés : \033[96m{RESULT}\033[0m")
+    print(f"Joltage trouvé : \033[96m{RESULT}\033[0m")
     print("═" * 60 + "\n")
+
