@@ -14,7 +14,7 @@ Solve every puzzle of **Advent of Code 2025** using **Python 3**, with clean, mo
 
 ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen)
 ![Day2](https://img.shields.io/badge/Day%202-Completed-brightgreen)
-![Day3](https://img.shields.io/badge/Day%203-Not%20Started-lightgrey) 
+![Day3](https://img.shields.io/badge/Day%203-Completed-brightgreen) 
 ![Day4](https://img.shields.io/badge/Day%204-Not%20Started-lightgrey) 
 ![Day5](https://img.shields.io/badge/Day%205-Not%20Started-lightgrey) 
 ![Day6](https://img.shields.io/badge/Day%206-Not%20Started-lightgrey) 
@@ -94,18 +94,18 @@ Track progress with GitHub stars, forks, and contributions.
 - Improve algorithmic thinking and Python skills.
 - Maintain a personal archive of well-commented solutions.
 
-| Day | Part 1 | Part 2 | Status |
-| --- | ------ | ------ | ------ |
-| 1   | ✅      | ✅      | ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen) |
-| 2   | ✅      | ✅      | ![Day2](https://img.shields.io/badge/Day%202-Completed-brightgreen) |
-| 3   | ❌      | ❌      | ![Day3](https://img.shields.io/badge/Day%203-Not%20Started-lightgrey) |
-| 4   | ❌      | ❌      | ![Day4](https://img.shields.io/badge/Day%204-Not%20Started-lightgrey) |
-| 5   | ❌      | ❌      | ![Day5](https://img.shields.io/badge/Day%205-Not%20Started-lightgrey) |
-| 6   | ❌      | ❌      | ![Day6](https://img.shields.io/badge/Day%206-Not%20Started-lightgrey) |
-| 7   | ❌      | ❌      | ![Day7](https://img.shields.io/badge/Day%207-Not%20Started-lightgrey) |
-| 8   | ❌      | ❌      | ![Day8](https://img.shields.io/badge/Day%208-Not%20Started-lightgrey) |
-| 9   | ❌      | ❌      | ![Day9](https://img.shields.io/badge/Day%209-Not%20Started-lightgrey) |
-| 10   | ❌      | ❌      | ![Day10](https://img.shields.io/badge/Day%2010-Not%20Started-lightgrey) |
+| Day | Part 1  | Part 2   | Status                                                                  |
+| --- | ------- | -------- | ----------------------------------------------------------------------- |
+| 1   | ✅      | ✅      | ![Day1](https://img.shields.io/badge/Day%201-Completed-brightgreen)     |
+| 2   | ✅      | ✅      | ![Day2](https://img.shields.io/badge/Day%202-Completed-brightgreen)     |
+| 3   | ✅      | ✅      | ![Day3](https://img.shields.io/badge/Day%203-Completed-brightgreen)     |
+| 4   | ❌      | ❌      | ![Day4](https://img.shields.io/badge/Day%204-Not%20Started-lightgrey)   |
+| 5   | ❌      | ❌      | ![Day5](https://img.shields.io/badge/Day%205-Not%20Started-lightgrey)   |
+| 6   | ❌      | ❌      | ![Day6](https://img.shields.io/badge/Day%206-Not%20Started-lightgrey)   |
+| 7   | ❌      | ❌      | ![Day7](https://img.shields.io/badge/Day%207-Not%20Started-lightgrey)   |
+| 8   | ❌      | ❌      | ![Day8](https://img.shields.io/badge/Day%208-Not%20Started-lightgrey)   |
+| 9   | ❌      | ❌      | ![Day9](https://img.shields.io/badge/Day%209-Not%20Started-lightgrey)   |
+| 10  | ❌      | ❌      | ![Day10](https://img.shields.io/badge/Day%2010-Not%20Started-lightgrey) |
 | 11  | ❌      | ❌      | ![Day11](https://img.shields.io/badge/Day%2011-Not%20Started-lightgrey) |
 | 12  | ❌      | ❌      | ![Day12](https://img.shields.io/badge/Day%2012-Not%20Started-lightgrey) |
 
