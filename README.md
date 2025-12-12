@@ -23,7 +23,7 @@ Solve every puzzle of **Advent of Code 2025** using **Python 3**, with clean, mo
 ![Day9](https://img.shields.io/badge/Day%209-Completed-brightgreen) 
 ![Day10](https://img.shields.io/badge/Day%2010-Completed-brightgreen) 
 ![Day11](https://img.shields.io/badge/Day%2011-Completed-brightgreen) 
-![Day12](https://img.shields.io/badge/Day%2012-Not%20Started-lightgrey) 
+![Day12](https://img.shields.io/badge/Day%2012-Completed-brightgree) 
 
 ---
 
@@ -107,7 +107,7 @@ Track progress with GitHub stars, forks, and contributions.
 | 9   | ✅      | ✅      | ![Day9](https://img.shields.io/badge/Day%209-Completed-brightgreen)   |
 | 10  | ✅      | ✅      | ![Day10](https://img.shields.io/badge/Day%2010-Completed-brightgreen) |
 | 11  | ✅      | ✅      | ![Day11](https://img.shields.io/badge/Day%2011-Completed-brightgreen) |
-| 12  | ❌      | ❌      | ![Day12](https://img.shields.io/badge/Day%2012-Not%20Started-lightgrey) |
+| 12  | ✅      | ✅      | ![Day12](https://img.shields.io/badge/Day%2012-Completed-brightgreen) |
 
 
 
