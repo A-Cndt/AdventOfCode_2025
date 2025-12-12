@@ -7,7 +7,7 @@ Advent Of Code 2025
 Day : 12
 Part : 1
 
-Version simple avec approche “malogique” et correction pour l'exemple.
+Version simple et correction pour l'exemple.
 
 Cette approche :
 - Calcule la surface totale de chaque forme à partir du dessin ASCII.
@@ -52,7 +52,7 @@ def solve(data: list) -> int:
     """
     Calcule le nombre de régions pouvant contenir les formes demandées.
 
-    La méthode utilise la logique “malogique” :
+    La méthode utilise la logique:
     - Calcul de la surface totale nécessaire par région.
     - Vérification que la surface disponible est suffisante.
     - Correction spécifique pour l'exemple.txt (troisième région impossible).
@@ -137,3 +137,4 @@ if __name__ == "__main__":
     print("═"*60 + "\n")
 
 # ===========================================================================
+
